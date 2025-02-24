@@ -17,7 +17,7 @@ export default function Footer({ locale }: { locale: string }) {
 
   useEffect(() => {
     setYear(new Date().getFullYear());
-  }, []);
+  }, [year]);
 
   return (
     <footer

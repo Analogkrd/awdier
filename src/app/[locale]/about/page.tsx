@@ -3,7 +3,8 @@ import Team from "@/components/Team";
 import MissionVision from "@/components/MissionVision";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
-
+import OurJourney from "@/components/OurJourney";
+import GalleryWrapper from "@/components/GalleryWrapper";
 
 export default function About() {
   const t = useTranslations("About");
@@ -21,13 +22,15 @@ export default function About() {
             className="rounded-lg w-full md:w-1/2"
           />
           <div className="flex flex-col gap-6">
-            <h1 className="font-bold text-xl">{b('tagline')}</h1>
+            <h1 className="font-bold text-xl">{b("tagline")}</h1>
             <p className="text-gray-600 text-lg">{t("aboutUs")}</p>
           </div>
         </div>
 
         {/* Customizable sections */}
         <MissionVision />
+        <OurJourney />
+        <GalleryWrapper />
       </div>
       <Team />
     </>

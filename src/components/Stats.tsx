@@ -1,7 +1,7 @@
 "use client";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
-import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import {
   FaTractor,
@@ -10,11 +10,12 @@ import {
   FaClock,
 } from "react-icons/fa";
 
+// Update the interface so that icon can be a JSX element.
 interface Stats {
   number: number;
   suffix: string;
   label: string;
-  icon: string;
+  icon: React.ReactNode;
 }
 
 // ✅ Custom Hook for Animated Count-Up (Triggers When in View)
@@ -71,8 +72,10 @@ export default function Stats() {
   const t = useTranslations("Stats");
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
 
-  // ✅ Parse Stats Data
-  const stats = t.raw("list").map((stat: Stats, index: number) => ({
+  // Explicitly type the raw list as an array of Stats.
+  const rawStats = t.raw("list") as Stats[];
+
+  const stats = rawStats.map((stat, index) => ({
     number: Number(stat.number) || 0,
     suffix: stat.suffix || "",
     label: stat.label || "",
@@ -99,7 +102,7 @@ export default function Stats() {
         {t("title")}
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-6xl mx-auto">
-        {stats.map((stat: Stats, index: number) => (
+        {stats.map((stat, index) => (
           <StatItem key={index} stat={stat} startAnimation={inView} />
         ))}
       </div>
