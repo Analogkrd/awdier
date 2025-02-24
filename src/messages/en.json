@@ -1,0 +1,212 @@
+{
+  "home": "Home",
+  "about": "About Us",
+  "services": "Services",
+  "contact": "Contact Us",
+  "hero_text": "Empowering Farmers, Transforming Agriculture",
+  "hero_detail":"Dedicated to developing the agricultural sector, improving farmers' livelihoods, and promoting sustainable farming practices in the Kurdistan Region - Iraq.",
+  "services_text": "Explore our services",
+  "Services": {
+    "title": "Our Services",
+    "description": "Explore our wide range of our services.",
+    "list": [
+      {
+        "id": 1,
+        "title": "Farmer Support & Training",
+        "description": "Empowering farmers with skills",
+        "detail":"Providing hands-on training and technical support to help farmers improve productivity and adopt modern agricultural techniques.",
+        "image": "/images/farmer-training.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Sustainable Farming Initiatives",
+        "description": "Promoting eco-friendly farming",
+        "detail":"Encouraging organic farming, soil conservation, and pesticide-free agriculture to protect the environment and public health.",
+        "image": "/images/sustainable-farming.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Market Linkages & Farmer Empowerment",
+        "description": "Connecting farmers to markets",
+        "detail":"Strengthening market access for farmers by building direct connections between producers, suppliers, and consumers.",
+        "image": "/images/farmer-empowerment2.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Agricultural Research & Innovation",
+        "description": "Advancing agricultural technologies",
+        "detail":"Conducting research and implementing innovative farming solutions to improve productivity and sustainability.",
+        "image": "/images/agricultural-research.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Financial & Policy Support",
+        "description": "Helping farmers with funding",
+        "detail":"Assisting farmers with financial aid, grants, and policy advocacy to enhance agricultural development.",
+        "image": "/images/financial-support.jpeg"
+      },
+      {
+        "id": 6,
+        "title": "Community Development & Rural Upliftment",
+        "description": " Improving rural livelihoods",
+        "detail":"Supporting rural communities with infrastructure, education, and resources to enhance living standards.",
+        "image": "/images/community-development.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Disaster & Crisis Management",
+        "description": "Responding to farming crises",
+        "detail":"Providing emergency aid, recovery plans, and risk management strategies for farmers facing natural disasters.",
+        "image": "/images/disaster-management.avif"
+      },
+      {
+        "id": 8,
+        "title": "Digital & Technological Support",
+        "description": "Modernizing agricultural systems",
+        "detail":"Implementing smart farming solutions, digital tools, and tech-based strategies to optimize agricultural efficiency.",
+        "image": "/images/digital-support2.webp"
+      }
+    ]
+  },
+  "Contact":{
+    "title":"Contact Us",
+    "description":"We are here to help you",
+    "address":"Address",
+    "phone":"Phone",
+    "email":"Email",
+    "location":"Find us here"
+  },
+  "Navbar":{
+    "home":"Home",
+    "about":"About",
+    "services":"Services",
+    "contact":"Contact",
+    "name": "Company Name"
+  },
+  "About":{
+    "title":"About Us",
+    "description":"",
+    "aboutUs":"Awdier Association is a non-governmental, independent, non-profit association, specialized in the developing and improving the agricultural sector and strives to improve the capabilities of farmers and increase their income and take care of the agricultural environment and improving the quality of production. It was established by ministerial order issued of the Ministry of Interior of the Kurdistan Region-Iraq No. () issued in //2023"
+    },
+  "ContactForm":{
+"NameError":"Please enter your name",
+"EmailError":"Please enter your email",
+"MessageError":"Please enter your message",
+    "name":"Your Name",
+    "email":"Your email",
+    "message":"Your message",
+    "send":"Send",
+    "sendButton":"Send Message",
+    "formText":"Send us a message"
+  },
+  "BusinessDetails":{
+    "name":"Awdier Organization",
+    "tagline": "Awdier Cooperative Association for the development of agriculture in the Kurdistan Region - Iraq",
+    "address":"Erbil, Iraq, Italian City 1 - Villa# 440",
+    "mission": "Our Mission",
+    "missionText":"We empower farmers, boost productivity, and promote sustainable farming by improving income, providing advanced equipment, and advocating organic agriculture for healthier produce and rural economic stability.",
+    "vision": "Our Vision",
+  "visionText": "To lead agricultural development in the Kurdistan Region by pioneering innovation, strengthening farmers, and ensuring a sustainable future through modern, eco-friendly practices."
+ },
+  "Features": {
+    "title": "Why Choose Us?",
+    "list": [
+      { "id": 1, "title": "Secure & Reliable", "icon": "ShieldCheckIcon" },
+      { "id": 2, "title": "Innovative Solutions", "icon": "LightBulbIcon" },
+      { "id": 3, "title": "Customer-Centric", "icon": "UsersIcon" },
+      { "id": 4, "title": "Project Management", "icon": "BriefcaseIcon" }
+    ]
+  },
+  "Footer":{
+    "followus":"Follow Us",
+    "quicklinks":"Quick Links"
+
+  },
+  "CTA":{
+    "title":"Grow the agricultural sector with us",
+    "description":"Contact us today for a more sustainable future",
+    "button":"Get in Touch"
+  },
+  "Team": {
+    "title": "Meet Our Team",
+    "members": [
+    {
+      "id": 1,
+      "name": "Bashar Mushier Ismail",
+      "role": "Chairman of the Board",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Siraj Sheikh Ahmed",
+      "role": "Vice President",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 3,
+      "name": "Najat Sofi Aziz",
+      "role": "Decision Maker",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 4,
+      "name": "Dr. Abdul Rahim Omar Mustafa",
+      "role": "Member of the Board",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 5,
+      "name": "Dr. Anwar Omar Qader",
+      "role": "Member of the Board",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 6,
+      "name": "Farooq Ali Osman",
+      "role": "Member of the Board",
+      "image": "/contact.svg"
+    },
+    {
+      "id": 7,
+      "name": "Saadi Assad Hamid",
+      "role": "Member of the Board",
+      "image": "/contact.svg"
+    }
+  ]
+  },
+  "OurJourney":{
+    "title":"Our journey",
+    "list":[
+      {
+        "year": "2020",
+        "event": "Awdier Founded"
+      },
+      {
+        "year": "2022",
+        "event": "500+Farmers Trained"
+      },
+      {
+        "year": "2024",
+        "event": "New Sustainable Farming Project"
+      }
+    ]
+  },"Projects":{
+    "title":"Our Projects",
+    "list":[
+      { "title": "Organic Farming", "image": "/images/sustainable-farming.jpg" },
+    { "title": "Water Conservation", "image": "/images/community-development.jpg" },
+    { "title": "Farm Training", "image": "/images/farmer-training.jpg" }
+    ]
+  },
+  "Stats":{
+    "title": "Our Impact in Numbers",
+    "list":[
+
+          { "number": 500, "suffix": "+", "label": "Farmers Trained" },
+          { "number": 20, "suffix": "+", "label": "Sustainable Projects" },
+          { "number": 10000, "suffix": "+", "label": "Acres Improved" },
+          { "number": 15, "suffix": "+", "label": "Years of Experience" }
+
+    ]
+  }
+}
