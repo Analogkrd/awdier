@@ -81,7 +81,7 @@ export default function HoverImage({ images }: HoverImageProps) {
 
   return (
     <section className="py-16 text-center">
-      <h2 className="text-4xl font-bold text-primary mb-8">Gallery</h2>
+      <h2 className="text-4xl font-bold text-primary mb-8"></h2>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
         {displayedImages.map((item, index) => (
           <div
@@ -94,12 +94,15 @@ export default function HoverImage({ images }: HoverImageProps) {
               <h3 className="text-white text-2xl font-bold">{item.title}</h3>
             </div>
             <Image
-              width={600}
-              height={500}
-              src={item.image}
-              alt={item.title}
-              className="object-cover group-hover:scale-110 transition-transform duration-500"
-            />
+  width={600}
+  height={500}
+  src={item.image}
+  alt={item.title}
+  className="object-cover group-hover:scale-110 transition-transform duration-500"
+  style={{ width: "auto", height: "auto" }} // Ensure proper aspect ratio
+/>
+
+
           </div>
         ))}
       </div>
@@ -150,13 +153,19 @@ export default function HoverImage({ images }: HoverImageProps) {
             >
               <FaChevronRight />
             </button>
-            <Image
-              width={800}
-              height={600}
-              src={images[selectedIndex].image}
-              alt={images[selectedIndex].title}
-              className="rounded-lg shadow-lg"
-            />
+<Image
+  width={800}
+  height={600}
+  src={images[selectedIndex].image}
+  alt={images[selectedIndex].title}
+  className="rounded-lg shadow-lg"
+  priority={true}
+  loading="eager"
+  unoptimized
+  style={{ width: "auto", height: "auto" }} // Fix aspect ratio issue
+/>
+
+
           </div>
         </div>
       )}

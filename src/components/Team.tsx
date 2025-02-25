@@ -21,7 +21,7 @@ export default function Team() {
         {t("title")}
       </motion.h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-8 p-6 max-w-6xl mx-auto">
         {teamMembers.map(
           (
             member: { id: number; name: string; role: string; image: string },
@@ -34,12 +34,13 @@ export default function Team() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
             >
-              <div className="relative w-32 h-32 rounded-full overflow-hidden mb-4">
+              <div className="relative rounded-full overflow-hidden mb-4">
                 <Image
                   src={member.image || placeholderImage} // Use actual image or fallback
                   alt={member.name}
-                  layout="fill"
-                  objectFit="cover"
+                  className="object-cover"
+                  width={60}
+                  height={60}
                 />
               </div>
               <h3 className="text-xl font-semibold text-secondary">{member.name}</h3>

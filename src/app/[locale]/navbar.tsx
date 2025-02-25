@@ -33,13 +33,15 @@ export default function Navbar({ locale }: { locale: string }) {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6">
         {/* Logo Section */}
         <Link href={`/`} className="flex items-center space-x-3">
-          <div className="relative h-12 w-12 md:h-14 md:w-14">
+          <div className="relative ">
             <Image
-              src="/logo-full.png"
-              alt="Company Logo"
-              layout="fill"
-              objectFit="contain"
-            />
+  src="/logo-full.png"
+  alt="Company Logo"
+  className="object-contain"
+  width={50}
+  height={50}
+  style={{ width: "auto", height: "auto" }} // Explicitly set width and height to auto
+/>
           </div>
           <h1 className="text-primary font-bold text-lg md:text-xl">
             {companyDetails.name}
