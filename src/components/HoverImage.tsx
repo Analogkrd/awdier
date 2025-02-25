@@ -66,7 +66,7 @@ export default function HoverImage({ images }: HoverImageProps) {
   }, [selectedIndex]);
 
   const showMoreImages = () => {
-    setVisibleCount((prev) => Math.min(prev + 12, images.length));
+    setVisibleCount((prev) => Math.min(prev + 24, images.length));
   };
 
   const displayedImages = images.slice(0, visibleCount);
