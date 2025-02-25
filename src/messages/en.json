@@ -202,10 +202,10 @@
     "title": "Our Impact in Numbers",
     "list":[
 
-          { "number": 500, "suffix": "+", "label": "Farmers Trained" },
+          { "number": 200, "suffix": "+", "label": "Farmers Trained" },
           { "number": 20, "suffix": "+", "label": "Sustainable Projects" },
           { "number": 10000, "suffix": "+", "label": "Acres Improved" },
-          { "number": 15, "suffix": "+", "label": "Years of Experience" }
+          { "number": 3, "suffix": "+", "label": "Years of Experience" }
 
     ]
   }
