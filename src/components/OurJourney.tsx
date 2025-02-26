@@ -10,7 +10,7 @@ export default function OurJourney() {
     const t = useTranslations('OurJourney');
     const journey = t.raw('list');
   return (
-    <section className="py-16 bg-white text-center">
+    <section className="py-16 bg-white text-center rounded-lg shadow-lg">
       <h2 className="text-4xl font-bold text-primary mb-8">{t('title')}</h2>
       <div className="border-l-4 border-green-500 ml-4 ">
         {journey.map((milestone: Journey, index:number) => (

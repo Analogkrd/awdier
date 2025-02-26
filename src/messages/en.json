@@ -143,24 +143,6 @@
       "image": "/contact.svg"
     },
     {
-      "id": 3,
-      "name": "Najat Sofi Aziz",
-      "role": "Decision Maker",
-      "image": "/contact.svg"
-    },
-    {
-      "id": 4,
-      "name": "Dr. Abdul Rahim Omar Mustafa",
-      "role": "Member of the Board",
-      "image": "/contact.svg"
-    },
-    {
-      "id": 5,
-      "name": "Dr. Anwar Omar Qader",
-      "role": "Member of the Board",
-      "image": "/contact.svg"
-    },
-    {
       "id": 6,
       "name": "Farooq Ali Osman",
       "role": "Member of the Board",
@@ -207,6 +189,30 @@
           { "number": 10000, "suffix": "+", "label": "Acres Improved" },
           { "number": 3, "suffix": "+", "label": "Years of Experience" }
 
+    ]
+  },
+  "OliveProject": {
+    "title": "Transforming Kurdistan’s Olive Industry",
+    "brief": "A large-scale initiative to cultivate 415,000 olive trees and establish an advanced olive oil production facility in Erbil.",
+    "stats": [
+      { "number": 1000, "suffix": " Dunams", "label": "Project Area" },
+      { "number": 415000, "suffix": "+", "label": "Olive Trees Planted" },
+      { "number": 2075, "suffix": " Tons", "label": "Annual Olive Oil Production" },
+      { "number": 76, "suffix": " Jobs", "label": "Employment Created" }
+    ],
+    "details": [
+      {
+        "title": "Sustainable Agriculture",
+        "description": "This project focuses on utilizing sustainable farming practices, including modern irrigation techniques and organic production."
+      },
+      {
+        "title": "Advanced Oil Production",
+        "description": "We are building an advanced olive oil extraction plant with a capacity of up to 10,000 tons annually."
+      },
+      {
+        "title": "Regional Impact",
+        "description": "This initiative contributes to local food security, economic growth, and potential exports to Gulf countries."
+      }
     ]
   }
 }

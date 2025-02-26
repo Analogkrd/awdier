@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import Image from "next/image";
 import OurJourney from "@/components/OurJourney";
 import GalleryWrapper from "@/components/GalleryWrapper";
+import OliveProject from "@/components/OliveProject";
 
 export default function About() {
   const t = useTranslations("About");
@@ -30,6 +31,7 @@ export default function About() {
         {/* Customizable sections */}
         <MissionVision />
         <OurJourney />
+        <OliveProject mode="details" />
         <GalleryWrapper />
       </div>
       <Team />
