@@ -191,8 +191,201 @@
 
     ]
   },
+  "careers": "Careers",
+  "Careers": {
+    "title": "Careers",
+    "description": "Join our team and make a difference",
+    "intro": "Awdier Association is looking for passionate individuals to join our team. We offer opportunities to work on meaningful projects that support farmers and develop the agricultural sector in the Kurdistan Region.",
+    "viewDetails": "View Details",
+    "responsibilities": "Key Responsibilities",
+    "qualifications": "Required Qualifications",
+    "competencies": "Key Competencies",
+    "applyTitle": "How to Apply",
+    "applyText": "To apply for this position, please send your resume (CV) to:",
+    "jobs": [
+      {
+        "id": 1,
+        "title": "Executive Director",
+        "location": "Kurdistan Region, Iraq",
+        "description": "Lead the organization and oversee its strategic, programmatic, and institutional development in line with its vision, mission, and core values.",
+        "responsibilities": [
+          "Facilitate the work of the Board of Directors, General Assembly, and Audit Committee in line with best governance practices",
+          "Lead the implementation of Awdier's strategy and projects, ensuring efficiency, effectiveness, and quality standards",
+          "Build and maintain strong partnerships with local, regional, and international institutions, networks, and donors",
+          "Ensure the availability and effective management of human, financial, and material resources",
+          "Represent the Association in relevant forums and strengthen its public image",
+          "Prepare and submit periodic technical, administrative, and financial reports to the Board of Directors"
+        ],
+        "qualifications": [
+          "Bachelor's degree in Development Studies, Agriculture, Business Administration, Economics, or a related field",
+          "Minimum 10 years of progressive experience in managing NGOs, associations, or similar organizations",
+          "Strong knowledge of the agricultural sector, cooperatives, and social solidarity economy",
+          "Proven experience in strategic planning, team leadership, budget management, and multi-donor project oversight",
+          "Demonstrated experience in partnership development and institutional growth",
+          "Excellent written and verbal communication skills in Arabic, Kurdish, and English",
+          "High level of integrity, cultural sensitivity, and commitment to Awdier Association's mission and values",
+          "Willingness and ability to travel within the Kurdistan Region and other parts of Iraq as required"
+        ],
+        "email": "info@awdier.com"
+      },
+      {
+        "id": 2,
+        "title": "Finance and Administration Officer",
+        "location": "Kurdistan Region, Iraq",
+        "description": "Manage the organization's financial and administrative operations, ensuring compliance, efficiency, and institutional sustainability.",
+        "responsibilities": [
+          "Develop and implement financial and administrative policies, systems, and procedures according to best practices",
+          "Ensure compliance with partnership agreements, contracts, and donor requirements",
+          "Oversee preparation and monitoring of the annual budget, project budgets, cash flow, and financial reporting",
+          "Maintain accurate accounting records, perform reconciliations, and ensure timely closure of financial periods",
+          "Lead audit processes, facilitate external auditors, and follow up on audit recommendations",
+          "Supervise procurement, disbursement, collection, and other financial operations",
+          "Support human resources management, including recruitment, training, and staff performance evaluation",
+          "Monitor fixed assets, inventory, office maintenance, IT systems, and logistical operations",
+          "Provide technical guidance and support to staff regarding financial and administrative matters",
+          "Prepare and submit periodic financial, administrative, and project reports"
+        ],
+        "qualifications": [
+          "Bachelor's degree in Accounting",
+          "Minimum 4 years of progressive experience in financial and administrative management within NGOs, cooperatives, or development projects",
+          "Proven experience in budget management, donor-funded projects, and audit processes",
+          "Strong knowledge of accounting principles, financial systems, and reporting standards",
+          "Excellent skills in financial analysis, documentation, and organizational management",
+          "Knowledge of tax, labor, and financial regulations in Iraq/Kurdistan Region",
+          "Proficiency in Kurdish and Arabic; English is preferred",
+          "High integrity, ethical standards, and attention to detail",
+          "Strong organizational, communication, and interpersonal skills",
+          "Ability to work under pressure and manage multiple priorities within tight deadlines"
+        ],
+        "competencies": [
+          "Strategic financial planning and budget oversight",
+          "Team leadership and capacity development",
+          "Compliance, governance, and audit management",
+          "Effective communication and stakeholder engagement",
+          "Problem-solving and decision-making skills"
+        ],
+        "email": "info@awdier.com"
+      },
+      {
+        "id": 3,
+        "title": "Coordinator - Relations, Monitoring & Evaluation",
+        "location": "Kurdistan Region, Iraq",
+        "description": "Manage the organization's monitoring, evaluation, accountability, learning systems, and partnerships.",
+        "responsibilities": [
+          "Develop and implement monitoring, evaluation, accountability, and learning systems for Awdier's strategy and donor-funded projects",
+          "Build and maintain data collection, tracking, and reporting systems to monitor progress and results",
+          "Support staff in data collection, documentation, reporting, and capacity building for effective M&E practices",
+          "Review and prepare technical, donor, and annual reports, ensuring high quality and compliance with donor requirements",
+          "Develop technical and financial project proposals in coordination with relevant teams to secure funding partnerships",
+          "Maintain a database of current and potential funders and oversee the organization's fundraising strategy",
+          "Strengthen relationships with local, regional, and international partners, institutions, and donors",
+          "Prepare communication materials to promote Awdier's vision, principles, and achievements",
+          "Support institutional development initiatives, including strategic and programmatic planning"
+        ],
+        "qualifications": [
+          "Bachelor's degree in Development Studies, Agriculture, Economics, Business Administration, or a related field (Master's preferred)",
+          "Minimum 4 years of progressive experience in resource mobilization, project design, and/or monitoring and evaluation within NGOs",
+          "Proven experience in donor communication and proposal development, preferably in agriculture, livelihoods, or cooperatives projects",
+          "Strong skills in data management, monitoring, evaluation, and results-based reporting",
+          "Excellent analytical and report-writing skills in English, with proficiency in Kurdish and Arabic",
+          "Knowledge of logical frameworks, theory of change, and performance indicator design",
+          "Familiarity with agricultural and cooperative sector programs is an advantage",
+          "Strong communication and relationship-building skills",
+          "Initiative-driven, self-motivated, problem-solving, and team-oriented personality"
+        ],
+        "competencies": [
+          "Monitoring, evaluation, accountability, and learning system management",
+          "Proposal development and fundraising",
+          "Data collection, reporting, and performance analysis",
+          "Partnership development and stakeholder engagement",
+          "Institutional development support and strategic planning follow-up"
+        ],
+        "email": "info@awdier.com"
+      },
+      {
+        "id": 4,
+        "title": "Technical Officer",
+        "location": "Kurdistan Region, Iraq",
+        "description": "Lead agricultural advisory services, cooperative support, research, and project development to improve services for farmers and strengthen agricultural cooperatives.",
+        "responsibilities": [
+          "Design agricultural advisory programs in target areas based on value chain analysis",
+          "Develop methodologies and work mechanisms, including designing and delivering training programs",
+          "Supervise agricultural advisors in the governorates, follow up on their work, and enhance their knowledge",
+          "Conduct studies and research and prepare reports related to the cooperative and agricultural sector",
+          "Prepare technical reports with contributions from agricultural advisors on value chains for target agricultural products",
+          "Document and disseminate successful national and international models in agricultural advisory and cooperative sectors",
+          "Prepare project ideas focused on delivering services and support to farmers and cooperatives",
+          "Contribute to project proposals and partnership development to secure funding",
+          "Strengthen relationships with relevant institutions, universities, and authorities",
+          "Prepare technical and administrative reports according to the M&E system",
+          "Support the review and update of Awdier's strategic plan"
+        ],
+        "qualifications": [
+          "Bachelor's degree in Agriculture, Agricultural Engineering, Rural Development, or a related field (Master's preferred)",
+          "Minimum 4 years of professional experience in agricultural development, cooperative strengthening, or rural livelihoods",
+          "Proven experience in coordinating multi-stakeholder agricultural projects and value chain initiatives",
+          "Demonstrated experience in training, capacity building, and technical supervision of agricultural programs",
+          "Experience working with NGOs, associations, cooperatives, or government agricultural departments is preferred",
+          "Strong understanding of sustainable agriculture, agribusiness, and cooperative management",
+          "Experience designing and implementing value chain programs and market linkages",
+          "Proficient in data analysis, report writing, and technical documentation",
+          "Proficiency in Kurdish and Arabic; English is a significant advantage",
+          "Excellent communication, coordination, and leadership skills"
+        ],
+        "competencies": [
+          "Agricultural advisory program design and supervision",
+          "Cooperative development and farmer support",
+          "Research, studies, and technical reporting",
+          "Project idea generation and proposal development",
+          "Monitoring, evaluation, and results-based reporting"
+        ],
+        "email": "info@awdier.com"
+      },
+      {
+        "id": 5,
+        "title": "Agricultural Advisor (Agronomist)",
+        "location": "Kurdistan Region, Iraq",
+        "description": "Provide agricultural and cooperative advisory services, organize farmers into cooperatives, and support marketing and value chain development.",
+        "responsibilities": [
+          "Conduct field visits to targeted agricultural areas according to selected value chains",
+          "Conduct needs assessments for farmers in target areas and value chain studies",
+          "Mobilize and organize farmer committees and leaders in target areas",
+          "Provide training to farmers using tools for best agricultural practices, including field days and demonstrations",
+          "Introduce and pilot new agricultural techniques with farmers and document lessons learned",
+          "Coordinate with ministry advisors, institutions, and experts to deliver specialized training",
+          "Raise awareness among farmers about cooperatives and their role in improving livelihoods",
+          "Provide logistical support and coordination for farmer training on cooperative establishment and management",
+          "Support cooperatives in the legal and organizational stages of establishment",
+          "Supervise the provision of financial and technical support to cooperatives",
+          "Monitor cooperative performance regularly and provide recommendations",
+          "Train farmers and cooperatives on basic agricultural marketing and value chains",
+          "Connect farmers and cooperatives with traders, companies, factories, and markets"
+        ],
+        "qualifications": [
+          "Bachelor's degree in Agriculture, Agricultural Sciences, Horticulture, Natural Resources, or a related field",
+          "Minimum 4 years of experience in agricultural advisory, community mobilization, or rural development",
+          "Direct experience working with farmers, cooperatives, or rural communities",
+          "Prior experience with NGOs, associations, or government agricultural departments is an advantage",
+          "Practical knowledge of crop production, irrigation, soil management, and pest control",
+          "Ability to train and transfer technical knowledge in a practical and simple manner",
+          "Basic skills in data collection and report preparation",
+          "Proficiency in Kurdish and Arabic",
+          "Strong communication and interpersonal skills",
+          "Ability to work in targeted rural areas"
+        ],
+        "competencies": [
+          "Field-level agricultural advisory and training",
+          "Farmer organization and cooperative support",
+          "Marketing and value chain advisory",
+          "Data collection, reporting, and documentation",
+          "Coordination and stakeholder engagement"
+        ],
+        "email": "info@awdier.com"
+      }
+    ]
+  },
   "OliveProject": {
-    "title": "Transforming Kurdistan’s Olive Industry",
+    "title": "Transforming Kurdistan's Olive Industry",
     "brief": "A large-scale initiative to cultivate 415,000 olive trees and establish an advanced olive oil production facility in Erbil.",
     "stats": [
       { "number": 1000, "suffix": " Dunams", "label": "Project Area" },

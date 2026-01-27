@@ -89,6 +89,14 @@ export default function Navbar({ locale }: { locale: string }) {
           >
             {t("contact")}
           </Link>
+          <Link
+            href={`/careers`}
+            className={`hover:text-tertiary ${
+              pathname === "/careers" ? "font-bold text-secondary" : ""
+            }`}
+          >
+            {t("careers")}
+          </Link>
         </div>
 
         {/* Language Switcher */}
@@ -179,6 +187,17 @@ export default function Navbar({ locale }: { locale: string }) {
             onClick={() => setMenuOpen(false)}
           >
             {t("contact")}
+          </Link>
+          <Link
+            href="/careers"
+            className={
+              pathname === "/careers"
+                ? "font-bold bg-secondary text-white p-2 rounded-lg opacity-75"
+                : "hover:text-secondary"
+            }
+            onClick={() => setMenuOpen(false)}
+          >
+            {t("careers")}
           </Link>
 
           {/* Mobile Language Switcher */}
